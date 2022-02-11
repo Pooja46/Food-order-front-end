@@ -1,0 +1,176 @@
+/*
+Author:Pooj Pincha
+Theme:Food ordering website
+*/
+*{margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    
+    width:80%;
+    margin: 0 auto;
+    padding:1%;
+    height: 100px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+border-radius: 50%;}
+.logo{
+    
+    
+    width:10%;
+    float:left;
+}
+.clearfix{
+    clear:both;
+    float:none;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    
+}
+.btn-primary{
+    background-color:rgb(238, 152, 24);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color:orange;
+    color: black;
+}
+h2{
+    color: orange;
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.image-responsive{
+    width: 100%;
+
+}
+.text-white{
+    color:white;
+}
+/* CSS FOR MENUBAR*/
+.text-right{
+    text-align: right;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display:inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.menu{
+    line-height: 100px;
+}
+.menu ul li a{
+    color: rgb(238, 152, 24);
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: black;
+}
+/*CSS FOR FOOODSEARCH SECTION*/
+.foodsearch{
+    background-image: url(../images/360_F_254208823_NXcV5RCcWJ1vgSuWjhPqIpPmqXIyBrDO.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 4% 0; 
+    width:100%;
+    border:1px solid red;
+    
+}
+.text-center{
+    text-align: center;
+}
+.foodsearch input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border:none;
+    margin-top:20px;
+    border-radius: 5px;
+}
+/*CSS FOR CATEGORIES SECTION*/
+.categories{
+    padding:3% 0;
+}
+.box1{
+    
+    width: 28%;
+    float:left;
+    margin: 2%;
+    height: 300px;
+    image-resolution: 800*800;
+    
+    
+    
+}
+.box1 img{
+    width: 300px;
+    height:300px;
+}
+
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position:absolute;
+    bottom: 30px;
+    left:40%;
+    font-family: serif;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.foodmenu{
+
+    height:400px;
+}
+.food-menu{
+    border: 1px solid;
+    width: 43%;
+    margin:1%;
+    padding: 2%;
+    float:left;
+    background-color: white;
+    border-radius: 15px;
+}
+.text-black{
+    color: rgb(238, 152, 24);
+}
+.f-image{
+    width: 20%;
+    float: left;
+}
+.des{
+    float: left;
+    width: 70%;
+    text-align: left;
+    margin-left: 8%;
+}
+.fprice{
+font-size: 1rem;
+margin: 2%;
+}
+.fdesc{
+    font-size: 0.8rem;
+    color:grey;
+}
+.social ul li{
+    list-style-type: none;
+    display: inline;
+    padding:1%;
+}
